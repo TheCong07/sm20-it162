@@ -1,0 +1,164 @@
+/*styles for my travel website*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* font awesome icon styles */
+i.logo {
+    color:darkred; /* a less boring color */
+    text-shadow:1px 1px #ccc; /* gives the icon a little depth */
+    font-size:1.25em; /* font awesome icons are text, so make it a bit bigger */
+    margin-left:1%; /* this keeps the icon from being squeeezed to the left */
+}
+
+
+body {
+    background: beige;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 50%;
+}
+
+header {
+    top: 0;
+    width: 100%;
+    padding: 10px 0 0 0;
+}
+
+.header-inner {
+    margin: 1% auto;
+    width: 50%;
+}
+
+#logo {
+    margin-right: 10px;
+    font-size:48px;
+}
+
+.header-inline h3, #logo {
+    float: left;
+}
+
+main {
+    width: 62%;
+    float: left;
+    margin-right: 2.7%;
+}
+
+span {
+    display: block;
+    margin-top: 4px;
+    font-style: italic;
+}
+
+span a{
+    color: #6595BF;
+}
+
+h1, h2, h3 {
+    margin-bottom: 1.1%;
+    font-family:"Times New Roman", times, serif;	
+}
+
+h1 {
+    color: #6595BF;
+    font-size: 1.802em;
+    font-weight: 200;
+    margin-bottom: 1.1%;
+}
+
+h2 {
+    color: #666;
+    font-size: 1.602em;
+    font-weight: 200;
+}
+
+h3 {
+    font-size: 1.402em;
+    font-weight: 200;
+}
+
+
+p {
+    margin-bottom: 2.1%;
+    font-family: "Times New Roman", times, serif;
+    font-size: 1.1em;
+    line-height: 30px;
+}
+
+aside {
+    width: 32%;
+    float: right;
+    margin-top: 3.2%;
+}
+
+footer {
+    border-top: 1px dotted #666;
+    height: 50px;
+    clear: both;
+    line-height: 50px;
+    font-size: .9em;
+    margin: 0 auto;
+    width: 50%;
+}
+
+footer ul {
+    float: right;
+    width: 100%;
+}
+
+footer li {
+    float: left;
+    color: #666;
+    list-style-type: none;
+    margin-left: 3.2%;
+}
+
+footer li a {
+    color: #666;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: 400px;
+    margin-bottom: 10%
+}
+
+#img2, #img3 {
+    display: none;
+}
+
+@media all and (max-width: 1200px) {
+    main {
+        width: 100%;
+        float: none;
+    }
+    
+    aside {
+        width: 100%;
+        float: none;
+    }
+    
+    #img1, #img3 {
+        display: none;
+    }
+    
+    #img2 {
+        display: block;
+    }
+}
+
+@media all and (max-width: 800px) {
+    #img1, #img2 {
+        display: none;
+    }
+    
+    #img3 {
+        display: block;
+    }
+}
