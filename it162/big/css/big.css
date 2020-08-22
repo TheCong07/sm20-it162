@@ -1,0 +1,65 @@
+/* EMBED YOUTUBE VIDEO AND GOOGLE MAP IFRAME */
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* END EMBED YOUTUBE VIDEO IFRAME */
+
+
+/* START EMBED GOOGLE CALENDAR IFRAME RESPONSIVELY */
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* HIDE AGENDA VIEW CALENDAR */
+
+div.embed-container.agenda-view {
+    display: none;
+}
+
+img#siteapp {
+    max-width: 50%;
+    float: left;
+    margin: 0 3% 3% 0;
+}
+
+
+/* CALENDAR RULE for PHONE */
+
+@media all and (max-width: 860px) {
+    /* Show Agendar View Calendar */
+    div.embed-container.agenda-view {
+        display: block;
+    }
+    div.embed-container.month-view {
+        display: none;
+    }
+}
