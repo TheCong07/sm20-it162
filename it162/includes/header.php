@@ -8,7 +8,9 @@
     <title>
         <?= $title ?>
     </title>
+    <link rel="stylesheet" href="css/forms.css" type="text/css">
     <link href="css/portal.css" rel="stylesheet" type="text/css">
+    <link href="css/aia.css" rel="stylesheet" type="text/css">
     <link href="css/nav.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://use.fontawesome.com/b59b484783.js"></script>

@@ -20,7 +20,7 @@ body {
 
 #wrapper {
     margin: 0 auto;
-    width: 50%;
+    width: 90%!important;
 }
 
 header {
@@ -31,7 +31,7 @@ header {
 
 .header-inner {
     margin: 1% auto;
-    width: 50%;
+    width: 90%!important;
 }
 
 #logo {
@@ -44,9 +44,13 @@ header {
 }
 
 main {
-    width: 62%;
+    max-width: 62%!important;
     float: left;
     margin-right: 2.7%;
+}
+
+main.aia {
+    max-width: 100%!important;
 }
 
 span {
@@ -103,7 +107,7 @@ footer {
     line-height: 50px;
     font-size: .9em;
     margin: 0 auto;
-    width: 50%;
+    width: 90%;
 }
 
 footer ul {
@@ -135,12 +139,12 @@ img {
 
 @media all and (max-width: 1200px) {
     main {
-        width: 100%;
+        width: 100%!important;
         float: none;
     }
     
     aside {
-        width: 100%;
+        width: 100%!important;
         float: none;
     }
     
